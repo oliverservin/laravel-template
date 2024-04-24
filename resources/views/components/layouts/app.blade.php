@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{{ $title ?? 'Page Title' }}</title>
-        <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png">
+        <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png" />
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body>
