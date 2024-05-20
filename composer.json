@@ -1,7 +1,7 @@
 {
     "name": "laravel/laravel",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "An opinionated setup of the Laravel Framework.",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {
@@ -48,7 +48,9 @@
             "@php artisan key:generate --ansi",
             "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
             "@php artisan migrate --graceful --ansi"
-        ]
+        ],
+        "format-php": "vendor/bin/pint",
+        "format-blade": "node_modules/prettier/bin-prettier.js -w resources/views/"
     },
     "extra": {
         "laravel": {
