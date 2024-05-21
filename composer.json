@@ -1,5 +1,5 @@
 {
-    "name": "laravel/laravel",
+    "name": "oliverservin/laravel-template",
     "type": "project",
     "description": "An opinionated setup of the Laravel Framework.",
     "keywords": ["laravel", "framework"],
