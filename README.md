@@ -19,4 +19,5 @@ The created application is configured with the following tools:
 - [Pest PHP](https://pestphp.com)
 - [Laravel Pint](https://github.com/laravel/pint)
 - [Tailwind CSS](https://tailwindcss.com)
-- [Prettier On a Laravel](https://helgesver.re/articles/laravel-blade-formatter-prettier)
+- [Prettier on Laravel](https://helgesver.re/articles/laravel-blade-formatter-prettier)
+- [Server Timing](https://github.com/beyondcode/laravel-server-timing)
